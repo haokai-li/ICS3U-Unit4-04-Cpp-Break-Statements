@@ -33,7 +33,7 @@ int main() {
             if (userNumberFloat == userNumberInt) {
                 if (userNumberInt == answerNumber) {
                     // output
-                    std::cout << "You are correctly." << std::endl;
+                    std::cout << "You are correct." << std::endl;
                     break;
                 } else if (userNumberInt < answerNumber) {
                         // output
