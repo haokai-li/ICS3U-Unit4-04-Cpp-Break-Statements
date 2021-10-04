@@ -32,16 +32,20 @@ int main() {
             userNumberInt = std::stoi(userString);
             if (userNumberFloat == userNumberInt) {
                 if (userNumberInt == answerNumber) {
+                    // output
                     std::cout << "You are correctly." << std::endl;
                     break;
                 } else if (userNumberInt < answerNumber) {
+                        // output
                         std::cout << userNumberInt << " is lower" << std::endl;
                         std::cout << "" << std::endl;
                     } else {
+                        // output
                         std::cout << userNumberInt << " is higher" << std::endl;
                         std::cout << "" << std::endl;
                 }
             } else {
+                // output
                 std::cout << "You didn't enter an integer." << std::endl;
                 std::cout << "" << std::endl;
             }
